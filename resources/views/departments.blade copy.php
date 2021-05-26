@@ -13,7 +13,7 @@
                     </h4>
                 </div>
                 <div class="col-2 text-end">
-                    <a href="/departments/create" class="btn btn-dark">Create</a>
+                    <a href="/departments/create/save" class="btn btn-dark">Create</a>
                 </div>
                 <div class="col-12">
                     
