@@ -36,7 +36,7 @@ class CreateEmployeesTable extends Migration
             $table->softDeletes();
             $table->timestamps();
 
-            $table->foreign('department_id')->references('id')->on('department');
+            $table->foreign('department_id')->references('id')->on('departments');
             $table->foreign('sss')->references('id')->on('deductions');
             $table->foreign('philhealth')->references('id')->on('deductions');
             $table->foreign('pagibig')->references('id')->on('deductions');
