@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Departments extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
+
+    protected $table = "deparments";
+    
+    protected $fillable = [
+        'department',
+        
+    ];
 }

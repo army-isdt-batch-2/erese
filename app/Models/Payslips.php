@@ -7,5 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Payslips extends Model
 {
-    use HasFactory;
+    protected $table = "payslips";
+    
+    protected $fillable = [
+        'payslip_id',
+        'cutoff_end',
+        'cutoff_start',
+    ];
 }

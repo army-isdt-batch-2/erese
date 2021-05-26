@@ -7,5 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Loans extends Model
 {
-    use HasFactory;
+    protected $table = "loans";
+    
+    protected $fillable = [
+        'employees_id',
+        'full_name',
+        'designation',
+        'loans_type',
+        'loan_amount',
+        'months_payable',
+        'notes',
+        
+    ];
 }

@@ -7,5 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Timekeeping extends Model
 {
-    use HasFactory;
+    protected $table = "timekeeping";
+    
+    protected $fillable = [
+        'date',
+       
+    ];
+}
 }
