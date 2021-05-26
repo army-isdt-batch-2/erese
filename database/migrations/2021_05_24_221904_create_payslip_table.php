@@ -18,6 +18,7 @@ class CreatePayslipTable extends Migration
             $table->unsignedBigInteger('payslip_id')->index();
             $table->date('cutoff_end')->index();
             $table->date('cutoff_start')->index();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

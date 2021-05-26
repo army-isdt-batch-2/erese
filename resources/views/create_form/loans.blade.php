@@ -22,20 +22,20 @@
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employees ID</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <input type="text" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <input type="text" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Designation</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <input type="text" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <div class="col-12">
                                 <label for="inputEmail4" class="form-label">Loan Type</label>
-                                <select id="inputState" class="form-select">
+                                <select id="inputState" class="form-select" required>
                                     <option selected>Choose...</option>
                                     <option>Car Loan</option>
                                     <option>Home Loan</option>
@@ -45,11 +45,11 @@
                             </div>
                             <div class="col-12">
                                 <label for="inputEmail4" class="form-label">Loan Amount</label>
-                                <input type="number" class="form-control" id="inputEmail4">
+                                <input type="number" class="form-control" id="inputEmail4" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Months Payable</label>
-                                <input type="number" class="form-control" id="inputEmail4">
+                                <input type="number" class="form-control" id="inputEmail4" required>
                             </div>
                         </div>
 

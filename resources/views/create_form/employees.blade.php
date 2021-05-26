@@ -20,35 +20,35 @@
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Photo</label>
-                            <input type="file" class="form-control" id="inputEmail4">
+                            <input type="file" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Contact</label>
-                            <input type="tel" class="form-control" id="inputPassword4">
+                            <input type="tel" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Birthday</label>
-                            <input type="date" class="form-control" id="inputPassword4">
+                            <input type="date" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Gender</label>
-                            <select id="inputState" class="form-select">
+                            <select id="inputState" class="form-select" required>
                                 <option selected>Choose...</option>
                                 <option>Male</option>
                                 <option>Female</option>
@@ -56,11 +56,11 @@
                         </div>
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputState" class="form-label">Department</label>
-                            <select id="inputState" class="form-select">
+                            <select id="inputState" class="form-select" required>
                                 <option selected>Choose...</option>
                                 <option>Department 1</option>
                                 <option>Department 2</option>
@@ -69,41 +69,41 @@
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Designation</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Basic Rate</label>
-                            <input type="number" class="form-control" id="inputPassword4">
+                            <input type="number" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputState" class="form-label">Philhealth Contribution table</label>
-                            <select id="inputState" class="form-select">
+                            <select id="inputState" class="form-select" required>
                                 <option selected>Choose...</option>
                                 <option>Department 1</option>
                             </select>
                         </div>
                         <div class="col-md-6">
                             <label for="inputState" class="form-label">SSS Contribution table</label>
-                            <select id="inputState" class="form-select">
+                            <select id="inputState" class="form-select" required>
                                 <option selected>Choose...</option>
                                 <option>Department 1</option>
                             </select>
                         </div>
                         <div class="col-md-6">
                             <label for="inputState" class="form-label">PAGIBIG Contribution table</label>
-                            <select id="inputState" class="form-select">
+                            <select id="inputState" class="form-select" required>
                                 <option selected>Choose...</option>
                                 <option>Department 1</option>
                             </select>
                         </div>
                         <div class="col-md-2">
                             <label for="inputZip" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
+                            <input type="text" class="form-control" id="inputZip" required>
                         </div>
                         <div class="col-12">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
+                                <label class="form-check-label" for="gridCheck" required>
                                     Check me out
                                 </label>
                             </div>

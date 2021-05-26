@@ -20,11 +20,11 @@
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Cutt-off start</label>
-                            <input type="date" class="form-control" id="inputEmail4">
+                            <input type="date" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Cutt-off end</label>
-                            <input type="date" class="form-control" id="inputEmail4">
+                            <input type="date" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Process</button>

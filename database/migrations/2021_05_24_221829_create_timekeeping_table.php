@@ -16,6 +16,7 @@ class CreateTimekeepingTable extends Migration
         Schema::create('timekeeping', function (Blueprint $table) {
             $table->id();
             $table->date('date');
+            $table->softDeletes();
             $table->timestamps();
 
           

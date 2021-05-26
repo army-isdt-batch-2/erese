@@ -33,6 +33,7 @@ class CreateEmployeesTable extends Migration
             $table->unsignedBigInteger('philhealth')->index();
             $table->unsignedBigInteger('pagibig')->index();
             $table->unsignedBigInteger('tax')->index();
+            $table->softDeletes();
             $table->timestamps();
 
             $table->foreign('department_id')->references('id')->on('department');

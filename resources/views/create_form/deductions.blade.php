@@ -20,23 +20,23 @@
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Contribution Type</label>
-                            <input type="number" class="form-control" id="inputEmail4">
+                            <input type="number" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Base Range</label>
-                            <input type="number" class="form-control" id="inputEmail4">
+                            <input type="number" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Monthly Contribution</label>
-                            <input type="number" class="form-control" id="inputEmail4">
+                            <input type="number" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employee Share</label>
-                            <input type="number" class="form-control" id="inputEmail4">
+                            <input type="number" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employer Share</label>
-                            <input type="number" class="form-control" id="inputEmail4">
+                            <input type="number" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Save</button>

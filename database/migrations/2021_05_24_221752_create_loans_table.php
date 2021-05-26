@@ -24,6 +24,7 @@ class CreateLoansTable extends Migration
             $table->integer('loan_amount')->index();
             $table->date('months_payable')->index();
             $table->longText('notes')->index();
+            $table->softDeletes();
             $table->timestamps();
 
             $table->foreign('employees_id')->references('id')->on('employees');
