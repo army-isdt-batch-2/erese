@@ -5,12 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Timekeeping extends Model
+class PayslipsRecords extends Model
 {
-    protected $table = "timekeeping";
+    protected $table = "payslips_records";
     
     protected $fillable = [
-        'date',
+        'employees_id',
+        'payslip_id',
+        'data',
        
     ];
 }

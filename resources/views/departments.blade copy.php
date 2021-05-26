@@ -16,8 +16,7 @@
                     <a href="/departments/create" class="btn btn-dark">Create</a>
                 </div>
                 <div class="col-12">
-                    <form action="/create/save" method="post">
-                        @csrf
+                    
                         <hr>
                 </div>
 
