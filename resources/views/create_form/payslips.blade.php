@@ -19,12 +19,14 @@
                     <div class="col-12">
                     <form class="row g-3">
                         <div class="col-md-6">
+                        <form action="/payslips/create/save" method="post">
+                        @csrf
                             <label for="inputEmail4" class="form-label">Cutt-off start</label>
-                            <input type="date" class="form-control" id="inputEmail4" required>
+                            <input type="date" class="form-control" name="cutt-off start" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Cutt-off end</label>
-                            <input type="date" class="form-control" id="inputEmail4" required>
+                            <input type="date" class="form-control" name="cutt-off end" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Process</button>

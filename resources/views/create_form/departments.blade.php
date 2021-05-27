@@ -19,8 +19,10 @@
                     <div class="col-12">
                     <form class="row g-3">
                         <div class="col-md-6">
+                        <form action="/department/create/save" method="post">
+                        @csrf
                             <label for="inputEmail4" class="form-label">Department</label>
-                            <input type="email" class="form-control" id="inputEmail4" required>
+                            <input type="email" class="form-control" name ="department" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Save</button>

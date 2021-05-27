@@ -19,8 +19,7 @@
                     <a href="/timekeepingview/create" class="btn btn-dark pull-right">View</a>
                 </div>
                 <div class="col-12">
-                    <form action="/create/save" method="post">
-                        @csrf
+                   
                         <hr>
                 </div>
 

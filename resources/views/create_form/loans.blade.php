@@ -21,16 +21,18 @@
                         <div class="col-12">
                         </div>
                         <div class="col-md-4">
+                        <form action="/loans/create/save" method="post">
+                        @csrf
                             <label for="inputEmail4" class="form-label">Employees ID</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" name="employee id" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" name="full name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Designation</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" name="designation" required>
                         </div>
                         <div class="col-md-4">
                             <div class="col-12">
@@ -45,11 +47,11 @@
                             </div>
                             <div class="col-12">
                                 <label for="inputEmail4" class="form-label">Loan Amount</label>
-                                <input type="number" class="form-control" id="inputEmail4" required>
+                                <input type="number" class="form-control" name="loan type" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Months Payable</label>
-                                <input type="number" class="form-control" id="inputEmail4" required>
+                                <input type="number" class="form-control" name="months payable" required>
                             </div>
                         </div>
 

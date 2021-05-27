@@ -19,16 +19,18 @@
                 <div class="col-12">
                     <form class="row g-3">
                         <div class="col-md-4">
+                        <form action="/leaves/create/save" method="post">
+                        @csrf
                             <label for="inputEmail4" class="form-label">Designation</label>
-                            <input type="email" class="form-control" id="inputEmail4" required>
+                            <input type="email" class="form-control" name="designation" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Full Name</label>
-                            <input type="email" class="form-control" id="inputEmail4" required>
+                            <input type="email" class="form-control" name="full name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employee ID</label>
-                            <input type="email" class="form-control" id="inputEmail4" required>
+                            <input type="email" class="form-control" name="employee id" required>
                         </div>
                         <div class="col-md-4">
                             <div class="col-md-12">
@@ -44,11 +46,11 @@
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Start</label>
-                                <input type="date" class="form-control" id="inputEmail4" required>
+                                <input type="date" class="form-control" name="start" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">End</label>
-                                <input type="date" class="form-control" id="inputEmail4" required>
+                                <input type="date" class="form-control" name="end" required>
                             </div>
                         </div>
 

@@ -19,8 +19,10 @@
                     <div class="col-12">
                     <form class="row g-3">
                         <div class="col-md-6">
+                        <form action="/timekeepimg/create/save" method="post">
+                        @csrf
                             <label for="inputEmail4" class="form-label">Attendance Date</label>
-                            <input type="date" class="form-control" id="inputEmail4" required>
+                            <input type="date" class="form-control" name="attendance date" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Save</button>

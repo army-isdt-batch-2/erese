@@ -16,8 +16,7 @@
                     <a href="/leaves/create" class="btn btn-dark pull-right">Create</a>
                 </div>
                 <div class="col-12">
-                    <form action="/create/save" method="post">
-                        @csrf
+                    
                         <hr>
                 </div>
 
