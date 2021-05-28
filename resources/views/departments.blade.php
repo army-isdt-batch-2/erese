@@ -29,32 +29,26 @@
                     <table class="table mt-3">
                         <thead>
                             <tr>
-                                <th class="text-muted" scope="col">Department</th>
-                                <th class="text-muted" scope="col">Department</th>
+                                <th class="text-muted" scope="col">Departments</th>
                                 <th class="text-muted" scope="col">Created</th>
                                 <th class="text-muted" scope="col">Updated</th>
-                                <th class="text-muted" scope="col">action</th>
+                                <th class="text-muted" scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
+                       
+                    <!-- $loop for the data from the table -->
+                        @foreach($data as $x)
+                        <tr>
+                            <th scope="row">{{ $x->id }}</th>
+                            <th scope="row">{{ $x->departments }}</th>
+                            <th scope="row">{{ $x->created }}</th>
+                            <th scope="row">{{ $x->updated_at }}</th>
+                            <th scope="row">{{ $x->action_at }}</th>
+                            
+                        </tr>
+                        @endforeach
+                    
                         </tbody>
                     </table>
                 </div>

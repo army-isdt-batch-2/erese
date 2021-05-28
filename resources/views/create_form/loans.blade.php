@@ -24,11 +24,11 @@
                         <form action="/loans/create/save" method="post">
                         @csrf
                             <label for="inputEmail4" class="form-label">Employees ID</label>
-                            <input type="text" class="form-control" name="employee id" required>
+                            <input type="text" class="form-control" name="employee_id" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" name="full name" required>
+                            <input type="text" class="form-control" name="full_name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Designation</label>

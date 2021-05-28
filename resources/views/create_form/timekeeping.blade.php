@@ -22,7 +22,7 @@
                         <form action="/timekeepimg/create/save" method="post">
                         @csrf
                             <label for="inputEmail4" class="form-label">Attendance Date</label>
-                            <input type="date" class="form-control" name="attendance date" required>
+                            <input type="date" class="form-control" name="attendance_date" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Save</button>

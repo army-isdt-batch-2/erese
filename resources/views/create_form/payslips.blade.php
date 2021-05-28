@@ -22,11 +22,11 @@
                         <form action="/payslips/create/save" method="post">
                         @csrf
                             <label for="inputEmail4" class="form-label">Cutt-off start</label>
-                            <input type="date" class="form-control" name="cutt-off start" required>
+                            <input type="date" class="form-control" name="cutoff_start" required>
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Cutt-off end</label>
-                            <input type="date" class="form-control" name="cutt-off end" required>
+                            <input type="date" class="form-control" name="cutoff_end" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Process</button>

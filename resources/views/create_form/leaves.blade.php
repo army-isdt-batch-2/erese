@@ -26,11 +26,11 @@
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Full Name</label>
-                            <input type="email" class="form-control" name="full name" required>
+                            <input type="email" class="form-control" name="full_name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employee ID</label>
-                            <input type="email" class="form-control" name="employee id" required>
+                            <input type="email" class="form-control" name="employee_id" required>
                         </div>
                         <div class="col-md-4">
                             <div class="col-md-12">

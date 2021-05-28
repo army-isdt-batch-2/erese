@@ -17,28 +17,23 @@
                 </div>
 
                 <div class="col-12">
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                        <form action="/employees/create/save" method="post">
+                    <form class="row g-3" action="{{ URL::route('employees.create.save') }}" method="post">
                         @csrf
+                        <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Photo</label>
                             <input type="file" class="form-control" name="photo" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">First Name</label>
-                            <input type="text" class="form-control" name="first name" required>
+                            <input type="text" class="form-control" name="first_name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="last name" required>
+                            <input type="text" class="form-control" name="last_name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" name="middle name" required>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputPassword4" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" name="middle name" required>
+                            <input type="text" class="form-control" name="middle_name" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Contact</label>
