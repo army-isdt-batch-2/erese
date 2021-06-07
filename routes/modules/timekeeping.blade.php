@@ -14,5 +14,5 @@ Route::get('/timekeeping/create', [
 
 Route::post('/timekeeping/create/save', [
     App\Http\Controllers\TimekeepingController::class,
-    'save'
+    'create_save'
 ]));
